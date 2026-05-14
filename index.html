@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>進化じゃんけん</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<!-- メインタイトル -->
+<section class="title">
+    <div>
+        <div>
+            <h1>進化じゃんけん</h1>
+        </div>
+        <div>
+            <p>いま、じゃんけんが進化する.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="evolution-area">
+  <h2>コンピューターの進化状況</h2>
+
+  <div class="status-card">
+    <p>グー：<span id="computer_gu_name">石</span></p>
+    <p>Lv：<span id="computer_gu_level">1</span></p>
+    <p>攻撃力：<span id="computer_gu_power">100</span></p>
+  </div>
+
+  <div class="status-card">
+    <p>チョキ：<span id="computer_cho_name">ハサミ</span></p>
+    <p>Lv：<span id="computer_cho_level">1</span></p>
+    <p>攻撃力：<span id="computer_cho_power">100</span></p>
+  </div>
+
+  <div class="status-card">
+    <p>パー：<span id="computer_par_name">紙</span></p>
+    <p>Lv：<span id="computer_par_level">1</span></p>
+    <p>攻撃力：<span id="computer_par_power">100</span></p>
+  </div>
+</section>
+
+
+<!-- バトルエリア -->
+<section class="battle_area">
+    <div>
+        <div class="computer_hand_area">
+            <p id="computer_hand">コンピューターの手：</p>
+        </div>
+        <div>
+            <p id="computer_attack_power">コンピュータ　の攻撃力：</p>
+        </div>
+        <div class="result_area">
+            <p id="result">結果：</p>
+        </div>
+        <div class="player_hand_area">
+            <p id="player_hand">あなたの手：</p>
+        </div>
+        <div>
+            <p id="player_attack_power">あなたの攻撃力：</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- プレイヤーエリア -->
+
+<section class="evolution-area">
+  <h2>あなたの進化状況</h2>
+
+  <div class="status-card">
+    <p>グー：<span id="player_gu_name">石</span></p>
+    <p>Lv：<span id="player_gu_level">1</span></p>
+    <p>攻撃力：<span id="player_gu_power">100</span></p>
+  </div>
+
+  <div class="status-card">
+    <p>チョキ：<span id="player_cho_name">ハサミ</span></p>
+    <p>Lv：<span id="player_cho_level">1</span></p>
+    <p>攻撃力：<span id="player_cho_power">100</span></p>
+  </div>
+
+  <div class="status-card">
+    <p>パー：<span id="player_par_name">紙</span></p>
+    <p>Lv：<span id="player_par_level">1</span></p>
+    <p>攻撃力：<span id="player_par_power">100</span></p>
+  </div>
+
+
+<!-- 選択ボタン -->
+  <div class="btn_area">
+    <button class="btn" id="gu_btn">グー</button>
+    <button class="btn"  id="cho_btn">チョキ</button>
+    <button class="btn"  id="par_btn">パー</button>
+  </div>
+
+
+</section>
+
+
+
+
+
+<!-- JavaScript読み込み -->
+<script src="js/main.js"></script>
+    
+</body>
+</html>

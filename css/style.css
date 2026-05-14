@@ -1,0 +1,102 @@
+.title{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+h1{
+    
+    font-size: 20px;
+}
+
+
+/* CPUエリア */
+
+.computer_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+
+
+
+/* バトルエリア */
+
+.battle_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: red;
+    
+}
+
+.computer_hand_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.result_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin: 16px;
+
+}
+
+
+.player_hand_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+}
+
+
+/* プレイヤーエリア */
+
+.player_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+
+
+
+
+
+/* ボタンエリア */
+
+.btn_area{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    margin: 8px;
+    background-color: b;
+}
+
+
